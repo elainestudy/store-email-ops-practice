@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "store-email-ops-practice"
+version = "0.1.0"
+description = "Store email operations practice project"
+authors = ["Elaine Jin"]
+readme = "README.md"
+packages = [{ include = "app" }]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+flask = "^3.1.0"
+sqlmodel = "^0.0.24"
+pydantic-settings = "^2.8.1"
+kafka-python = "^2.2.15"
+boto3 = "^1.38.0"
+gunicorn = "^23.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-bdd = "^8.1.0"
+ruff = "^0.11.4"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
