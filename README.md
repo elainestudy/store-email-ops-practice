@@ -26,6 +26,33 @@ This single project lets us practice:
 - Terraform
 - BDD Testing patterns
 - Security-minded implementation choices
+- GitHub Actions CI/CD
+
+## Getting Started
+
+### Prerequisites
+- Python 3.13
+- pip or Poetry
+
+### Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/elainestudy/store-email-ops-practice.git
+cd store-email-ops-practice
+
+# Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install flask sqlmodel pydantic-settings pytest pytest-bdd
+
+# Run the application
+python run.py
+
+# Run tests
+PYTHONPATH=. pytest tests/ -v
+```
 
 ## Architecture Overview
 
