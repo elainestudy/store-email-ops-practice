@@ -1,5 +1,8 @@
 # Store Email Ops Practice
 
+[![Tests & Quality](https://github.com/elainestudy/store-email-ops-practice/actions/workflows/tests.yml/badge.svg)](https://github.com/elainestudy/store-email-ops-practice/actions)
+[![codecov](https://codecov.io/gh/elainestudy/store-email-ops-practice/branch/main/graph/badge.svg)](https://codecov.io/gh/elainestudy/store-email-ops-practice)
+
 This repository is a focused practice project for a store email operations tool.
 
 The project goal is to simulate an internal tool that store teams can use to send email communication to customers.
